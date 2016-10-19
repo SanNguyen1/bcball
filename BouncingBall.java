@@ -24,7 +24,7 @@ public class BouncingBall extends JFrame {
 	private static final int UPDATETIME = 5;
 	private DrawingCanvas canvas;
 	int x = 50, y = 50;
-	int size = 50;
+	int size = 5;
 	int xSpeed = 1, ySpeed = 2;
 	Color[] ballColorArray = { Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW, Color.GRAY, Color.PINK, Color.BLACK };
 	Color ballColor = Color.BLACK;
@@ -35,7 +35,7 @@ public class BouncingBall extends JFrame {
 		canvas.setPreferredSize(new Dimension(WIDTH, HEIGHT));
 		this.setContentPane(canvas);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setTitle("Bouncing Ball");
+		this.setTitle("Team Yolo");
 		this.pack();
 		this.setLocationRelativeTo(null);
 		this.setVisible(true);
